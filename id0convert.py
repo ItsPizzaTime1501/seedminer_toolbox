@@ -7,4 +7,4 @@ with open(sys.argv[1],"rb") as f:
 
 id0=sha256[3::-1] + sha256[7:3:-1] + sha256[11:7:-1] + sha256[15:11:-1]
 
-print(id0.encode("hex"))
+print(id0.hex())
